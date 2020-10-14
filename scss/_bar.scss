@@ -1,0 +1,21 @@
+.bar-skill {
+  margin: 2rem 0;
+  height: 5px;
+  background: var(--hint);
+  position: relative;
+  &-progress {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    background: var(--primary);
+  }
+  &-dot {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: black;
+    transform: rotate(45deg);
+    top: -2.5px;
+  }
+}
